@@ -1,36 +1,36 @@
 body{
     background-color:aliceblue;
 }
-a {
+a{
     text-decoration: none;
- }
- .menu_link{
+}
+.menu_link{
     color: rgb(5, 41, 109);
     font-size: 16px;
     line-height: 20px;
- }
- .main_heading{
+}
+.main_heading{
     color: #222222;
     font-size: 28px;
     line-height: 36px;
     font-weight: bold;
- }
- .main_paragraph{
+}
+.main_paragraph{
     font-style: normal;
     font-weight: 300;
     font-size: 18px;
     line-height: 30px;
     color: #2a0686
- }
- .subheading_l2{
+}
+.subheading_l2{
     color: rgb(250, 108, 56);
     font-style: normal;
     font-weight: 700;
     font-size: 36px;
     line-height: 80px;
- }
- .goods_view{
+}
+.goods_view{
     border-radius: 50%;
     border: red 4px double;
     width: 200px;
- }
+}
