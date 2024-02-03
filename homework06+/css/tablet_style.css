@@ -15,6 +15,9 @@ body{
 .main__menu{
     margin: 0 32px;
 }
+.slogan_logo{
+    max-height: 4em;
+}
 .slogan_text{
     font-size: 44px;
 }

@@ -7,6 +7,7 @@
     <title>THE BRAND OF LUXERIOUS FASHION</title>
     <link rel="stylesheet" href="./css/desktop_style.css">
     <link rel="stylesheet" href="./css/tablet_style.css">
+    <link rel="stylesheet" href="./css/mobile_style.css">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
     <link href="https://fonts.googleapis.com/css2?family=Lato:wght@400;700;900&display=swap" rel="stylesheet">
@@ -21,15 +22,16 @@
             </div>
             <nav class="main__menu">
                 <a href="#catalog"><img src="./img/catalog.svg" alt="catalog"></a>
-                <a href="#"><img src="./img/account.svg" alt="account"></a>
-                <a href="#"><img src="./img/basket.svg" alt="basket"></a>
+                <a class="not_mobile" href="#"><img src="./img/account.svg" alt="account"></a>
+                <a class="not_mobile" href="#"><img src="./img/basket.svg" alt="basket"></a>
             </nav>
         </section>
         <section class="top__logo">
-            <img src="./img/promo_photo.png" alt="promo_photo" class="promo_photo">
+            <img src="./img/promo_photo.png" alt="promo_photo" class="promo_photo not_mobile">
             <div class="slogan">
                 <img src="./img/slogan_logo.png" alt="slogan_logo" class="slogan_logo">
-                <p class="slogan_text">THE BRAND <br> <span>OF LUXERIOUS </span>
+                <p class="slogan_text">THE BRAND<br>
+                    <span>OF LUXERIOUS </span>
                     <span2 class="span2">FASHION</span2>
                 </p>
             </div>
@@ -58,7 +60,7 @@
             </p>
         </article>
         <article class="item item4">
-            <img src="./img/offer4.png" alt="offer4">
+            <img class="offer4_photo" src="./img/offer4.png" alt="offer4">
             <img src="./img/offer_sadow.png" alt="shadow" class="offer_shadow item4">
             <p class="offer_text offer_text4">
                 LUXIROUS & TRENDY<br><span>ACCESORIES</span>
