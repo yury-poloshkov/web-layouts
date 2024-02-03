@@ -152,8 +152,8 @@ body{
 .products{
     display: grid;
     grid-template-columns: repeat(3, 1fr);
-    gap: 30px;
-    margin-bottom: 48px;
+    gap: 48px;
+    /* margin-bottom: 48px; */
 }
 .product{
     display: flex;
